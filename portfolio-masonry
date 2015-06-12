@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]> <html class="ie6 ie" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 7]>    <html class="ie7 ie" lang="en" dir="ltr"> <![endif]-->
+<!--[if IE 8]>    <html class="ie8 ie" lang="en" dir="ltr"> <![endif]-->
+<!--[if gt IE 8]> <!--> <html class="
+not-ie" lang="en" dir="ltr"> <!--<![endif]-->
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://www.scenephotocontest.com/misc/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+<link href="//fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet" type="text/css"><link href="//fonts.googleapis.com/css?family=Roboto:400,300,500,900" rel="stylesheet" type="text/css"><link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" media="screen" />
+<title>Portfolio | Nashville Scene Photo Contest</title>
+<style type="text/css" media="all">
+@import url("https://www.scenephotocontest.com/modules/system/system.base.css?npsja0");
+@import url("https://www.scenephotocontest.com/modules/system/system.menus.css?npsja0");
+@import url("https://www.scenephotocontest.com/modules/system/system.messages.css?npsja0");
+@import url("https://www.scenephotocontest.com/modules/system/system.theme.css?npsja0");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.scenephotocontest.com/modules/comment/comment.css?npsja0");
+@import url("https://www.scenephotocontest.com/sites/all/modules/contrib/date/date_api/date.css?npsja0");
+@import url("https://www.scenephotocontest.com/sites/all/modules/contrib/date/date_popup/themes/datepicker.1.7.css?npsja0");
+@import url("https://www.scenephotocontest.com/modules/field/theme/field.css?npsja0");
+@import url("https://www.scenephotocontest.com/modules/node/node.css?npsja0");
+@import url("https://www.scenephotocontest.com/modules/search/search.css?npsja0");
+@import url("https://www.scenephotocontest.com/modules/user/user.css?npsja0");
+@import url("https://www.scenephotocontest.com/sites/all/modules/contrib/views/css/views.css?npsja0");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.scenephotocontest.com/modules/colorbox/styles/default/colorbox_style.css?npsja0");
+@import url("https://www.scenephotocontest.com/sites/all/modules/contrib/ctools/css/ctools.css?npsja0");
+</style>
+<style type="text/css" media="all">
+@import url("https://www.scenephotocontest.com/sites/default/themes/oyster/css/theme.css?npsja0");
+@import url("https://www.scenephotocontest.com/sites/default/themes/oyster/css/responsive.css?npsja0");
+@import url("https://www.scenephotocontest.com/sites/default/themes/oyster/css/custom.css?npsja0");
+@import url("https://www.scenephotocontest.com/sites/default/themes/oyster/css/drupal.css?npsja0");
+</style>
+<script type="text/javascript" src="https://www.scenephotocontest.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://www.scenephotocontest.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://www.scenephotocontest.com/misc/drupal.js?npsja0"></script>
+<script type="text/javascript" src="https://www.scenephotocontest.com/modules/colorbox/js/colorbox.js?npsja0"></script>
+<script type="text/javascript" src="https://www.scenephotocontest.com/modules/colorbox/styles/default/colorbox_style.js?npsja0"></script>
+<script type="text/javascript" src="https://www.scenephotocontest.com/sites/default/modules/scene-photo-contest/oyster_utilities/js/ajax.js?npsja0"></script>
+<script type="text/javascript" src="https://www.scenephotocontest.com/sites/default/modules/scene-photo-contest/oyster_utilities/js/jquery.isotope.js?npsja0"></script>
+<script type="text/javascript" src="https://www.scenephotocontest.com/sites/default/modules/scene-photo-contest/oyster_utilities/js/portfolio_masonry.js?npsja0"></script>
+<script type="text/javascript" src="https://www.scenephotocontest.com/sites/default/themes/oyster/js/modules.js?npsja0"></script>
+<script type="text/javascript" src="https://www.scenephotocontest.com/sites/default/themes/oyster/js/animate.js?npsja0"></script>
+<script type="text/javascript" src="https://www.scenephotocontest.com/sites/default/themes/oyster/js/theme.js?npsja0"></script>
+<script type="text/javascript" src="https://www.scenephotocontest.com/sites/default/themes/oyster/js/jquery.countdown.min.js?npsja0"></script>
+<script type="text/javascript" src="https://www.scenephotocontest.com/sites/default/themes/oyster/js/sticky.js?npsja0"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\u002F", "pathPrefix":"", "ajaxPageState":{"theme":"oyster", "theme_token":"isz7jBkl2abIUhUM7H6fWqJa9H6Q0U5xBCdZk-DQeZQ", "js":{"sites\u002Fdefault\u002Fmodules\u002Fscene-photo-contest\u002Foyster_gallery\u002Fjs\u002Foyster_flow.js":1, "sites\u002Fdefault\u002Fthemes\u002Foyster\u002Fjs\u002Fpreloader.js":1, "sites\u002Fall\u002Fmodules\u002Fcontrib\u002Fjquery_update\u002Freplace\u002Fjquery\u002F1.10\u002Fjquery.min.js":1, "misc\u002Fjquery.once.js":1, "misc\u002Fdrupal.js":1, "modules\u002Fcolorbox\u002Fjs\u002Fcolorbox.js":1, "modules\u002Fcolorbox\u002Fstyles\u002Fdefault\u002Fcolorbox_style.js":1, "sites\u002Fdefault\u002Fmodules\u002Fscene-photo-contest\u002Foyster_utilities\u002Fjs\u002Fajax.js":1, "sites\u002Fdefault\u002Fmodules\u002Fscene-photo-contest\u002Foyster_utilities\u002Fjs\u002Fjquery.isotope.js":1, "sites\u002Fdefault\u002Fmodules\u002Fscene-photo-contest\u002Foyster_utilities\u002Fjs\u002Fportfolio_masonry.js":1, "sites\u002Fdefault\u002Fthemes\u002Foyster\u002Fjs\u002Fmodules.js":1, "sites\u002Fdefault\u002Fthemes\u002Foyster\u002Fjs\u002Fanimate.js":1, "sites\u002Fdefault\u002Fthemes\u002Foyster\u002Fjs\u002Ftheme.js":1, "sites\u002Fdefault\u002Fthemes\u002Foyster\u002Fjs\u002Fjquery.countdown.min.js":1, "sites\u002Fdefault\u002Fthemes\u002Foyster\u002Fjs\u002Fsticky.js":1}, "css":{"modules\u002Fsystem\u002Fsystem.base.css":1, "modules\u002Fsystem\u002Fsystem.menus.css":1, "modules\u002Fsystem\u002Fsystem.messages.css":1, "modules\u002Fsystem\u002Fsystem.theme.css":1, "modules\u002Fcomment\u002Fcomment.css":1, "sites\u002Fall\u002Fmodules\u002Fcontrib\u002Fdate\u002Fdate_api\u002Fdate.css":1, "sites\u002Fall\u002Fmodules\u002Fcontrib\u002Fdate\u002Fdate_popup\u002Fthemes\u002Fdatepicker.1.7.css":1, "modules\u002Ffield\u002Ftheme\u002Ffield.css":1, "modules\u002Fnode\u002Fnode.css":1, "modules\u002Fsearch\u002Fsearch.css":1, "modules\u002Fuser\u002Fuser.css":1, "sites\u002Fall\u002Fmodules\u002Fcontrib\u002Fviews\u002Fcss\u002Fviews.css":1, "modules\u002Fcolorbox\u002Fstyles\u002Fdefault\u002Fcolorbox_style.css":1, "sites\u002Fall\u002Fmodules\u002Fcontrib\u002Fctools\u002Fcss\u002Fctools.css":1, "sites\u002Fdefault\u002Fmodules\u002Fscene-photo-contest\u002Foyster_utilities\u002Foyster_utilities.css":1, "sites\u002Fdefault\u002Fthemes\u002Foyster\u002Fcss\u002Ftheme.css":1, "sites\u002Fdefault\u002Fthemes\u002Foyster\u002Fcss\u002Fresponsive.css":1, "sites\u002Fdefault\u002Fthemes\u002Foyster\u002Fcss\u002Fcustom.css":1, "sites\u002Fdefault\u002Fthemes\u002Foyster\u002Fcss\u002Fdrupal.css":1}}, "colorbox":{"opacity":"0.85", "current":"{current} of {total}", "previous":"« Prev", "next":"Next »", "close":"Close", "maxWidth":"98%", "maxHeight":"98%", "fixed":true, "mobiledetect":true, "mobiledevicewidth":"480px"}});
+//--><!]]>
+</script>
+  
+<!-- IE Fix for HTML5 Tags -->
+<!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<![endif]-->
+
+<!-- User defined CSS --><style type='text/css'></style><!-- End user defined CSS -->  
+
+</head>
+
+<body class="html not-front not-logged-in no-sidebars page-portfolio-masonry" >
+<header class="main_header">
+  <div class="header_wrapper">
+  
+        
+      	<div class="logo_sect">
+  	   
+        <a href="/" title="Home" rel="home" class="logo"><img src="https://www.scenephotocontest.com/sites/default/files/photo-contest-logo.jpg" alt="Home" class="logo_def"></a>
+       
+            
+            <div id="name-and-slogan" >
+
+                              <div id="site-name"  class="hidden">
+	            <a href="/" title="Home" rel="home"><span>Nashville Scene Photo Contest</span></a>
+	          </div>
+                  
+                  <div id="site-slogan" class="slogan no-name">
+            Scene Photo Contest 2015          </div>
+        
+      </div> <!-- /#name-and-slogan -->
+	      
+       
+    </div>  
+      
+                       
+    <div class="header_rp">
+      <nav>
+         
+        <div class="menu-main-menu-container">
+            <div class="region region-header-menu">
+    <div id="block-system-main-menu" class="block block-system block-menu">
+
+    
+  <div class="content">
+    <ul class="menu" id="menu-main-menu"><li><a href="/" title="">Home</a></li><li><a href="/photo-contest-rules">Contest Rules</a></li><li class="current-menu-parent"><a href="/portfolio-masonry" title="" class="active-trail active">Finalists Gallery (Vote Here!)</a></li></ul>  </div>
+</div>
+  </div>
+    	
+        </div>
+                
+                      
+      </nav>     
+          </div>
+    <div class="clear"></div>
+  
+  </div>
+</header>
+<div class="main_wrapper">
+    
+  <div class="content_wrapper">
+    <div class="container main-container">
+      <div class="content_block row no-sidebar">
+        <div class="fl-container ">
+          <div class="row">
+            
+                        
+            			        <div class="tabs">
+			          			        </div>
+			      			      			      			      <div id="content" class="posts-block ">
+                <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+    
+  <div class="content">
+    <div class="view view-portfolio view-id-portfolio view-display-id-page_3 view-dom-id-f59c64d6cc53b97a11adb838332f3d11">
+        
+  
+  
+      <div class="view-content">
+      <div class="fullscreen_block"><div class="fs_blog_module image-grid">  
+          <a href="/node/101"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/101">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/5cd81f25ba921f5758ae4e1a07247171/PC304335_X.jpg" width="1200" height="900" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/101">Ross Smith</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/101">
+		          <div class="vote-icon-101 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/79"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/79">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/29de47eddfac232e5516deebeff822ac/JasonClifton_03.jpg" width="2100" height="1395" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/79">Jason Clifton</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/79">
+		          <div class="vote-icon-79 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/93"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/93">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/12f12d81c64e2aafe96695a559d9c3fa/AdrianBaugh_3.jpg" width="1776" height="1184" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/93">Adrian Baugh</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/93">
+		          <div class="vote-icon-93 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/86"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/86">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/035fbfb52186c24acf1f074211225484/CeleneAubry_5.jpg" width="1500" height="2250" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/86">Celene Aubry</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/86">
+		          <div class="vote-icon-86 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/91"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/91">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/87a136b49d016248fd280fee95aff850/JoeNu%C3%B1ez_1.jpg" width="4800" height="3174" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/91">Joe Nuñez</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/91">
+		          <div class="vote-icon-91 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/75"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/75">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/e121b2e82bfe643ee10e8cb0ff9321bc/ArdeeChua_1.jpg" width="4875" height="3250" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/75">Ardee Chua</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/75">
+		          <div class="vote-icon-75 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/92"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/92">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/445f21b3b6f52303ff352efaf214a512/BrittonDerek_1.jpg" width="3217" height="2736" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/92">Derek BRitton</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/92">
+		          <div class="vote-icon-92 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/95"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/95">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/bca254ca817f0f870c27d3d7899f4513/RenataScarpelli_1.jpg" width="3318" height="1951" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/95">Renata Scarpelli</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/95">
+		          <div class="vote-icon-95 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/99"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/99">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/fd66a20ada09faa3a75b574d465b6b8b/AshleyBoydJones_2_1.jpg" width="3130" height="2075" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/99">Ashley Boyd Jones</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/99">
+		          <div class="vote-icon-99 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/78"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/78">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/e149462f7aefe4606ef51ff3a933250b/ShannonStapleton_2_1.jpg" width="1920" height="900" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/78">Shannon Stapleton</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/78">
+		          <div class="vote-icon-78 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/85"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/85">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/c0ce60443a4ed96ffe5c51208fabae9f/JakeMacpherson_3_0.jpg" width="2246" height="1500" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/85">Jake Macpherson</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/85">
+		          <div class="vote-icon-85 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/100"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/100">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/fd66a20ada09faa3a75b574d465b6b8b/AshleyBoydJones_4_2.jpg" width="1226" height="820" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/100">Ashley Boyd Jones</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/100">
+		          <div class="vote-icon-100 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/74"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/74">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/e4c42f293ddbb104bce4b2f4c6aae6f2/DurwoodEdwards-1.jpg" width="3000" height="2000" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/74">Durwood Edwards</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/74">
+		          <div class="vote-icon-74 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/89"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/89">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/ada98e7badc20e80ecf0d94a400256cc/ChrisWage_1.jpg" width="1500" height="1000" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/89">Chris Wage</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/89">
+		          <div class="vote-icon-89 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/82"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/82">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/94e8bb9ef41a88a543b4bf2ef6c9f013/JonathanPfahl_1.jpg" width="2800" height="2100" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/82">Jonathan Pfahl</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/82">
+		          <div class="vote-icon-82 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/90"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/90">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/ada98e7badc20e80ecf0d94a400256cc/ChrisWage_5.jpg" width="1500" height="1500" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/90">Chris Wage</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/90">
+		          <div class="vote-icon-90 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/77"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/77">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/0cb7bc691a01ce82eab8730eaa068afb/cox2_0.jpg" width="3416" height="5616" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/77">Andrew Cox</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/77">
+		          <div class="vote-icon-77 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/96"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/96">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/9a294433bd503ac817c0d692d4785b77/TylerSharpe_2.jpg" width="3600" height="2400" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/96">Tyler Sharpe</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/96">
+		          <div class="vote-icon-96 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/80"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/80">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/fbe1dbb0b9f34590da8def128f3770db/Blair%20Tramel%204.jpg" width="960" height="637" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/80">Blair  Tramel </a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/80">
+		          <div class="vote-icon-80 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/87"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/87">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/bd75bf5975089a3e9f1e0742d44ff572/image_0.jpg" width="5184" height="3456" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/87">Tom Jamison</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/87">
+		          <div class="vote-icon-87 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/83"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/83">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/94e8bb9ef41a88a543b4bf2ef6c9f013/JonathanPfahl_3.jpg" width="2800" height="2100" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/83">Jonathan Pfahl</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/83">
+		          <div class="vote-icon-83 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/84"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/84">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/f98079f3b95b5fa6bbb73e4d621e3d3d/AlannaStyer_1.jpg" width="3744" height="5616" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/84">Alanna Styer</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/84">
+		          <div class="vote-icon-84 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/81"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/81">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/fbe1dbb0b9f34590da8def128f3770db/Blair%20Tramel%205.jpg" width="960" height="637" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/81">Blair  Tramel </a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/81">
+		          <div class="vote-icon-81 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/88"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/88">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/bd75bf5975089a3e9f1e0742d44ff572/image_3.jpg" width="5068" height="3379" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/88">Tom Jamison</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/88">
+		          <div class="vote-icon-88 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/94"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/94">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/61aa3975f2e06d5d798dc09bab77ead7/Gregoryoloughlin_1.jpg" width="1810" height="1810" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/94">Gregory O&#039;Loughlin</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/94">
+		          <div class="vote-icon-94 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/98"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/98">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/3f0fde9bc1de16a62ce4c4b939e28085/KeithPlayer_2.JPG" width="2250" height="1500" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/98">Keith Player</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/98">
+		          <div class="vote-icon-98 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/76"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/76">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/e121b2e82bfe643ee10e8cb0ff9321bc/ArdeeChua_5_3.jpg" width="5472" height="3648" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/76">Ardee Chua</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/76">
+		          <div class="vote-icon-76 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>    
+          <a href="/node/97"><div class="blogpost_preview_fw element Advertisement">
+  <div class="fw_preview_wrapper">
+    <div class="gallery_item_wrapper">
+       <a href="/node/97">
+         <img typeof="foaf:Image" src="https://www.scenephotocontest.com/sites/default/files/contest_entries/f7092941c600c93a35f6b1aa07d5e65b/lindsaygarland_4.jpg" width="2100" height="2100" />
+         <div class="gallery_fadder"></div>
+         <span class="gallery_ico"><i class="stand_icon icon-eye"></i></span>
+       </a>
+    </div>
+    <div class="grid-port-cont">
+      <h6><a href="/node/97">Lindsay Garland</a></h6>
+        <div class="block_likes">                      
+          
+	        <div class="oyster-node-like">
+		        <a href="https://www.scenephotocontest.com/like/node/97">
+		          <div class="vote-icon-97 vote-icon-wrapper">
+		            <i class="fa fa-thumbs-o-up"></i>
+		          </div>
+		        </a></div>
+	        
+        </div>                            
+      </div>
+  </div>
+</div></a>  </div></div><div class="preloader"></div>    </div>
+  
+  
+  
+  
+  
+  
+</div>  </div>
+</div>
+  </div>
+			      </div>
+              
+          
+		        		        
+		      </div>
+        </div><!-- .fl-container -->     
+        
+                
+      </div>
+    </div>
+  </div>
+</div>  
+  
+          
+<footer><!-- .main-wrapper -->
+  <div class="footer_wrapper container">
+    
+        
+       
+    <div class="row">
+            <div class="span6">
+          <div class="region region-footer-bottom-left">
+      <div class="region region-footer-bottom-left">
+      <div class="region region-footer-bottom-left">
+      <div class="region region-footer-bottom-left">
+    <div id="block-block-2" class="block block-block">
+
+    
+  <div class="content">
+    <p>Copyright © 2015 Nashville Scene &amp; Southcomm Communications.</p>
+  </div>
+</div>
+  </div>
+  </div>
+  </div>
+  </div>
+ 
+      </div>
+                </div>
+      </div>
+</footer>    
+<script type="text/javascript" src="https://www.scenephotocontest.com/sites/default/modules/scene-photo-contest/oyster_gallery/js/oyster_flow.js?npsja0"></script>
+<script type="text/javascript" src="https://www.scenephotocontest.com/sites/default/themes/oyster/js/preloader.js?npsja0"></script>
+</body>
+</html>
